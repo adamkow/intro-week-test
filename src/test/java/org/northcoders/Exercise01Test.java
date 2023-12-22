@@ -35,4 +35,12 @@ public class Exercise01Test {
         assertEquals("PunkRock", ex01.joinWords("Punk", "Rock"));
         assertEquals("learnjava", ex01.joinWords("learn", "java"));
     }
+
+    @Test
+    void indexOfAGivenLetterTest() {
+        Exercise01 ex01 = new Exercise01();
+        assertEquals(25, ex01.indexOfAGivenLetter("abcdefghijklmnopqrstuvwxyz", "z"));
+        assertEquals(7, ex01.indexOfAGivenLetter("Hello, Java", "J"));
+        assertEquals(9, ex01.indexOfAGivenLetter("Simon is awesome", "a"));
+    }
 }

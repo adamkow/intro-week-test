@@ -7,6 +7,11 @@ public class Exercise01 {
         return "";
     }
 
+    public int indexOfAGivenLetter(String word, String letter) {
+        // Add your code here
+        return 0;
+    }
+
     public String capitalizeWord(String word) {
         // Add your code here
         return "";
@@ -16,6 +21,5 @@ public class Exercise01 {
         // Add your code here
         return "";
     }
-
 
 }
