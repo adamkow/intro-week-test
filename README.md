@@ -1,1 +1,1 @@
-# intro-week-string-methods-java
+The instructions for this repo can be found here: https://l2c.northcoders.com/courses/jv-intro/string-methods
